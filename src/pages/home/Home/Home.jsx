@@ -1,5 +1,6 @@
 import HomeCarousel from "../homeComponents/Carousel/HomeCarousel"
 import HomeAboutUs from "../homeComponents/homeAboutUs/HomeAboutUs"
+import HomeLogo from "../homeComponents/homeLogo/HomeLogo"
 import HomeServices from "../homeComponents/homeServices/HomeServices"
 
 
@@ -9,6 +10,7 @@ function Home() {
       <HomeCarousel/>
       <HomeAboutUs/>
       <HomeServices/>
+      <HomeLogo/>
     </div>
   )
 }

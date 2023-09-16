@@ -11,7 +11,7 @@ function HomeServices() {
         backgroundImage: "url('https://i.ibb.co/xzy3cPt/Shape.png')",
         backgroundRepeat: "no-repeat",
         backgroundSize: "6%",
-        backgroundPosition: "right 5% bottom 90%",
+        backgroundPosition: "right 5% top 2%",
 
        
       };
@@ -28,7 +28,7 @@ function HomeServices() {
 
             </div>
         </section>
-        <section className='grid grid-cols-3 gap-4 items-center container mx-auto pb-10'>
+        <section className='grid grid-cols-3 gap-4 items-center container mx-auto pb-20'>
             <div className='shadow shadow-slate-200 hover:border-2 hover:border-b-orange-300 p-4 mr-5 cursor-default bg-white'>
                 <img className="mt-3" src={serviceWebAnalysisImg} alt="" />
                 <h4 className='text-xl font-bold my-3'>Web Analysis</h4>
