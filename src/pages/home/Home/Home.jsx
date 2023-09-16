@@ -1,8 +1,13 @@
+import HomeCarousel from "../homeComponents/Carousel/HomeCarousel"
+import HomeAboutUs from "../homeComponents/homeAboutUs/HomeAboutUs"
 
 
 function Home() {
   return (
-    <div className="text-center text-red-500">Home</div>
+    <div>
+      <HomeCarousel/>
+      <HomeAboutUs/>
+    </div>
   )
 }
 

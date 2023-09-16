@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { FaFacebook, FaTwitter, FaInstagram, FaCalendarAlt, FaMapMarkerAlt} from "react-icons/fa";
 import { CgMail } from "react-icons/cg";
 import { BsFillTelephoneFill } from "react-icons/bs";
-import logo from "../../../../public/Shape.svg"
+import logo from "/Shape.svg"
 
 
 function Footer() {
