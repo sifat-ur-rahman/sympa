@@ -19,12 +19,12 @@ import img02 from '../../../../assets/image/Rectangle.png'
 
 function HomePortfolio() {
   return (
-    <div>
-        <section className="mt-10">
+    <div data-aos="fade-up">
+        <section  className="mt-10 wow bounceInUp">
             <p className='text-base font-normal text-indigo-600 flex items-center justify-center'><FaDotCircle className='font-sans mr-1'/>LATEST PORTFOLIO</p>
             <h2 className="text-3xl font-semibold mb-2 text-center">what next? our latest <br /> client stories.</h2>
         </section>
-        <section className="mb-20">
+        <section className="mb-20 mt-8">
         <Swiper
         slidesPerView={4}
         spaceBetween={30}

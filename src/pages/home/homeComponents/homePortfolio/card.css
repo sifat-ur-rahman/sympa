@@ -46,8 +46,7 @@
     height: 40%;
     padding: 1.5rem;
     display: flex;
-    justify-content: start;
-    background-color: chocolate;
+    background-color: rgb(216, 98, 14);
     z-index: 1;
     align-items: flex-end;
     text-align: start;

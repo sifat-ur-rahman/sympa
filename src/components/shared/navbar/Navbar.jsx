@@ -48,8 +48,8 @@ function Navbar() {
 
   // top-0 z-50 bg-white flex 
   return (
-    <header className="sticky   mx-auto px-2 lg:px-0  2xl:h-24">
-      <section>
+    < section className=" sticky top-0 z-50 mx-auto px-2 lg:px-0 bg-white 2xl:h-24">
+      <header>
       <div className="bg text-white  flex items-center justify-evenly">
         <div className="flex items-center">
           <BsFillTelephoneFill className="text-orange-500 mr-1"/>
@@ -71,17 +71,17 @@ function Navbar() {
       </div>
       </div>
 
-      </section>
-      <section className="flex items-center justify-around">
-      <div >
+      </header>
+      <nav className="flex items-center justify-around  ">
+      <div>
         <Link  to="/">
-          <img src={logo} className="h-12 2xl:h-14 object-cover " alt="logo" />
+          <img src={logo} className=" object-cover pt-3  px-5 " alt="logo" />
         
         </Link>
       </div>
       
       
-    <nav className="relative ">
+    <div className="relative ">
       
     
       <div className="mt-7">
@@ -116,9 +116,9 @@ function Navbar() {
       </div>
  
       
+    </div>
     </nav>
-    </section>
-  </header>
+  </section>
   )
 }
 
