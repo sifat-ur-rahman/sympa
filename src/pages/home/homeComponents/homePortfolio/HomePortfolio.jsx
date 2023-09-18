@@ -27,7 +27,7 @@ function HomePortfolio() {
         <section className="mb-20 mt-8">
         <Swiper
         slidesPerView={4}
-        spaceBetween={30}
+        spaceBetween={100}
         freeMode={true}
         pagination={{
           clickable: true,
@@ -36,7 +36,7 @@ function HomePortfolio() {
         className="mySwiper cardContainer"
       >
         <SwiperSlide>
-        <div className="box">
+        <div className="box mx-3">
             <div className="imgBox">
                 <img src={img01} alt=""/>
             </div>

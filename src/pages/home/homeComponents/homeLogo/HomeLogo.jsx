@@ -6,7 +6,7 @@ import logo5 from '../../../../assets/image/logo/5.png'
 
 function HomeLogo() {
   return (
-    <div className='bg-orange-600 '>
+    <div data-aos="flip-up" className='bg-orange-600 '>
         <div className="bg mb-7 origin-center hover:-mx-1 hover:-rotate-1">
         <section className="container mx-auto">
             <div className='flex items-center justify-around py-5'>

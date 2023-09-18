@@ -81,6 +81,7 @@
   }
   body {
     font-family: 'Jost', sans-serif;
+    overflow-x: hidden;
   }
   .active {
     font-weight: 700; 
