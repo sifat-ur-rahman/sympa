@@ -1,6 +1,7 @@
 import HomeCarousel from "../homeComponents/Carousel/HomeCarousel"
 import HomeAboutUs from "../homeComponents/homeAboutUs/HomeAboutUs"
 import HomeAward from "../homeComponents/homeAward/HomeAward"
+import HomeBlog from "../homeComponents/homeBlog/HomeBlog"
 import HomeLogo from "../homeComponents/homeLogo/HomeLogo"
 import HomePortfolio from "../homeComponents/homePortfolio/HomePortfolio"
 import HomePricing from "../homeComponents/homePricing/HomePricing"
@@ -21,6 +22,7 @@ function Home() {
       <HomeAward/>
       <HomeTeamMembers/>
       <HomeTestimonials/>
+      <HomeBlog/>
     </div>
   )
 }

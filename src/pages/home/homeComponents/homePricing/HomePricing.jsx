@@ -27,7 +27,7 @@ function HomePricing() {
             </div>
         </section>
         <section className='grid grid-cols-3 gap-4 items-center container mx-auto pb-20'>
-            <div className='shadow shadow-slate-200 hover:border-2 hover:border-orange-300 p-4 mr-5 cursor-default bg-white'>
+            <div data-aos="fade-right" className='shadow shadow-slate-200 hover:border-2 hover:border-orange-300 p-4 mr-5 cursor-default bg-white'>
                 <div className="flex items-center justify-between mb-8 mt-4">
                   <div >
                     <h4 className='text-xl font-bold'>Basic</h4>
@@ -48,7 +48,7 @@ function HomePricing() {
                 </div>
                 <button className="btn common-btn justify-items-center  mb-4">Choose Plan<BsArrowUpRight className="ms-2"/> </button>
             </div>
-            <div className='shadow shadow-slate-200 hover:border-2 hover:border-orange-300 p-4 mr-5 cursor-default bg-white'>
+            <div data-aos="fade-down" className='shadow shadow-slate-200 hover:border-2 hover:border-orange-300 p-4 mr-5 cursor-default bg-white'>
                 <div className="flex items-center justify-between mb-8 mt-4">
                   <div >
                     <h4 className='text-xl font-bold'>Professional</h4>
@@ -69,7 +69,7 @@ function HomePricing() {
                 </div>
                 <button className="btn common-btn justify-items-center  mb-4">Choose Plan<BsArrowUpRight className="ms-2"/> </button>
             </div>
-            <div className='shadow shadow-slate-200 hover:border-2 hover:border-orange-300 p-4 mr-5 cursor-default bg-white'>
+            <div data-aos="fade-left" className='shadow shadow-slate-200 hover:border-2 hover:border-orange-300 p-4 mr-5 cursor-default bg-white'>
                 <div className="flex items-center justify-between mb-8 mt-4">
                   <div >
                     <h4 className='text-xl font-bold'>Ultimate</h4>

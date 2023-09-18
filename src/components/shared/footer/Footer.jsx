@@ -13,7 +13,7 @@ function Footer() {
   ];
 
   return (
-    <footer className="text-slate-500 bg font-medium relative px-2 mb-10">
+    <footer data-aos="zoom-out" className="text-slate-500 bg font-medium relative px-2">
      
       <div className="absolute inset-x-0 top-0 h-3 "></div>
       <div className="shadow-t sm:shadow-md py-8">
