@@ -3,6 +3,7 @@ import award from '../../../../assets/image/logo/award.png'
 import clients from '../../../../assets/image/logo/clients.png'
 import Project from '../../../../assets/image/logo/Project.png'
 import feedback from '../../../../assets/image/logo/feedback.png'
+import Counter from '../../../../components/counter/Counter'
 
 function HomeAward() {
 
@@ -23,22 +24,22 @@ function HomeAward() {
             <div className='flex flex-col  items-center'>
                 <img  src={award} alt="" />
                 <p className='text-zinc-500 text-base font-normal mt-3'>Winning award</p>
-                <h3 className=' text-4xl '>200+</h3>
+                <Counter className=' text-4xl ' number={200} title={'+'}/>
             </div>
             <div className='flex flex-col  items-center'> 
                 <img src={clients} alt="" />
                 <p className='text-zinc-500 text-base font-normal mt-3'>Satisfied Clients</p>
-                <h3 className=' text-4xl '>2k+</h3>
+                <Counter className=' text-4xl ' number={2} title={'K+'}/>
             </div>
             <div className='flex flex-col  items-center'>
                 <img src={Project} alt="" />
                 <p className='text-zinc-500 text-base font-normal mt-3'>Project Worldwide</p>
-                <h3 className=' text-4xl '>600+</h3>
+                <Counter className=' text-4xl ' number={600} title={'+'}/>
             </div>
             <div className='flex flex-col  items-center'>
                 <img src={feedback} alt="" />
                 <p className='text-zinc-500 text-base font-normal mt-3'>Happy Feedback</p>
-                <h3 className=' text-4xl '>500+</h3>
+                <Counter className=' text-4xl ' number={500} title={'+'}/>
             </div>
         </div>
         </section>
