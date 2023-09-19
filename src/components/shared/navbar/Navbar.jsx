@@ -66,7 +66,7 @@ function Navbar() {
             <NavLink className='nav-link' to={'/about'}>About </NavLink> 
             </li>
             <li className="relative ">
-            <NavLink className='nav-link' to={'/services'}>Services </NavLink> 
+            <NavLink className='nav-link' to={'/services'}>Services</NavLink> 
             </li>
             <li className="relative ">
             <NavLink className='nav-link' to={'/projects'}>Projects </NavLink> 
