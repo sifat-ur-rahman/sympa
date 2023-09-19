@@ -17,6 +17,30 @@
     }
   }
 
+  .bannerTitle{
+    font-family: 'Jost', sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 70px;
+  }
+
+  .bannerText{
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+  }
+
+  .normalText{
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+  }
+
   /* background color */
 .bg{
     background-color: #001130;

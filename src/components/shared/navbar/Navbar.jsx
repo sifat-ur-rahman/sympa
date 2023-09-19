@@ -13,55 +13,23 @@ function Navbar() {
     backgroundPosition: "center",
    
   };
- 
-  const navlinks = [
-    {
-      path: "/",
-      title: "Home",
-    },
-    {
-      path: "/home02",
-      title: "Home02",
-    },
-    {
-      path: "/services",
-      title: "Services",
-    },
-    {
-      path: "/projects",
-      title: "Projects",
-    },
-    {
-      path: "/blog",
-      title: "Blog",
-    },
-    {
-      path: "/branches",
-      title: "Branches",
-    },
-    {
-      path: "/contact",
-      title: "Contact",
-    },
-    
-  ];
 
-  // top-0 z-50 bg-white flex 
   return (
     < section className=" sticky top-0 z-50 mx-auto px-2 lg:px-0 bg-white 2xl:h-24">
       <header>
       <div className="bg text-white  flex items-center justify-evenly">
-        <div className="flex items-center">
+        <div className="bg-white px-1"> </div>
+        <div className="flex items-center ml-44">
           <BsFillTelephoneFill className="text-orange-500 mr-1"/>
-          <p>987-0980-9809</p>
+          <p className="normalText">987-0980-9809</p>
         </div>
         <div className="flex items-center">
           <CgMail className="text-orange-500 mr-1"/>
-          <p>Info@youemail.com</p>
+          <p className="normalText">Info@youemail.com</p>
         </div>
         <div className="flex items-center">
           <FaMapMarkerAlt className="text-orange-500 mr-1"/>
-          <p>4768 Boundary Street, USA</p>
+          <p className="normalText">4768 Boundary Street, USA</p>
         </div>
         <div  className="flex p-0" style={iconBgImg} >
         <FaFacebookF className="ms-4 my-3"/>
@@ -72,10 +40,12 @@ function Navbar() {
       </div>
 
       </header>
-      <nav className="flex items-center justify-around  ">
-      <div>
+      <nav className="flex items-center justify-between  ">
+      <div style={{
+        clipPath: 'polygon(0 0, 55% 100%, 100% 0)',
+      }} className="bg ">
         <Link  to="/">
-          <img src={logo} className=" object-cover pt-3  px-5 " alt="logo" />
+          <img src={logo} className=" w-60 object-cover pb-10  px-16 " alt="logo" />
         
         </Link>
       </div>
@@ -85,36 +55,28 @@ function Navbar() {
       
     
       <div className="">
-        <ul className="flex flex-col items-center justify-evenly gap-10 2xl:gap-10 md:flex-row">
-          {navlinks.map((link) => (
-            <li key={link.path} className="relative ">
-              <NavLink
-                className="font-medium text-textBlack hover:text-secondary  nav-link"
-                to={link.path}
-              >
-                {link.title === "Branches" ? (
-        
-                  <h1 className="relative group">{link.title}</h1>
-                ) : (
-                  <h1>{link.title}</h1>
-                )}
-                <div className='hidden group-hover:block'>
-    <ul className='mt-2 flex flex-col items-center'>
-      <li><a href='#'>TIE</a></li>
-      <li><a href='#'>Asset manager</a></li>
-      <li><a href='#'>PM</a></li>
-    </ul>
-
-  </div>
-
-                
-              </NavLink>
-            
-
+        <ul className="flex  items-center justify-evenly gap-10 flex-row mr-10">
+            <li className="relative ">
+              <NavLink className='nav-link' to={'/'}>Home </NavLink> 
             </li>
-          ))}
-        
-        
+            <li className="relative ">
+            <NavLink className='nav-link' to={'/home02'}>Home02 </NavLink> 
+            </li>
+            <li className="relative ">
+            <NavLink className='nav-link' to={'/about'}>About </NavLink> 
+            </li>
+            <li className="relative ">
+            <NavLink className='nav-link' to={'/services'}>Services </NavLink> 
+            </li>
+            <li className="relative ">
+            <NavLink className='nav-link' to={'/projects'}>Projects </NavLink> 
+            </li>
+            <li className="relative ">
+            <NavLink className='nav-link' to={'/blog'}>Blog</NavLink> 
+            </li>
+            <li className="relative ">
+            <NavLink className='nav-link' to={'/contact'}>Contact</NavLink> 
+            </li>
           <li><button className="btn-purple common-btn-purple">Free consultion  <BsArrowUpRight className="ms-2"/> </button></li>
         </ul>
       </div>
