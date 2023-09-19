@@ -20,8 +20,8 @@ function Navbar() {
       title: "Home",
     },
     {
-      path: "/aboutUs",
-      title: "About Us",
+      path: "/home02",
+      title: "Home02",
     },
     {
       path: "/services",
@@ -84,7 +84,7 @@ function Navbar() {
     <div className="relative ">
       
     
-      <div className="mt-7">
+      <div className="">
         <ul className="flex flex-col items-center justify-evenly gap-10 2xl:gap-10 md:flex-row">
           {navlinks.map((link) => (
             <li key={link.path} className="relative ">
@@ -113,6 +113,8 @@ function Navbar() {
 
             </li>
           ))}
+        
+        
           <li><button className="btn-purple common-btn-purple">Free consultion  <BsArrowUpRight className="ms-2"/> </button></li>
         </ul>
       </div>
