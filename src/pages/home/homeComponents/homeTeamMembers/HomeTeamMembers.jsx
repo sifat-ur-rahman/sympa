@@ -3,19 +3,7 @@ import img01 from '../../../../assets/image/team members/teamMember01.jpg'
 import img02 from '../../../../assets/image/team members/teamMember02.jpg'
 import img03 from '../../../../assets/image/team members/teamMember03.jpg'
 import img04 from '../../../../assets/image/team members/teamMember04.jpg'
-// import img05 from '../../../../assets/image/team members/teamMember05.jpg'
 
-// import { Swiper, SwiperSlide } from 'swiper/react';
-
-// // Import Swiper styles
-// import 'swiper/css';
-// import 'swiper/css/free-mode';
-// import 'swiper/css/pagination';
-
-
-
-// // import required modules
-// import { FreeMode, Pagination } from 'swiper/modules';
 
 
 

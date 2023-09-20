@@ -19,7 +19,7 @@ function Footer() {
       <div className="shadow-t sm:shadow-md py-8">
         <div className="container mx-auto">
 
-        <section className="mb-10 flex justify-around border-2">
+        <section className="mb-10 flex justify-between px-8 py-1 border-2">
           
           <div className="flex items-center">
           <img src={logo} alt="logo" />
@@ -29,15 +29,15 @@ function Footer() {
       <div className="flex items-center">
       <div className="flex items-center">
           <BsFillTelephoneFill className="text-orange-500 mr-1"/>
-          <p>987-0980-9809</p>
+          <p className="normalText">987-0980-9809</p>
         </div>
         <div className="flex items-center mx-8">
           <CgMail className="text-orange-500 mr-1"/>
-          <p>Info@youemail.com</p>
+          <p className="normalText">Info@youemail.com</p>
         </div>
         <div className="flex items-center">
           <FaMapMarkerAlt className="text-orange-500 mr-1"/>
-          <p>4768 Boundary Street, USA</p>
+          <p className="normalText">4768 Boundary Street, USA</p>
         </div>
       </div>
 

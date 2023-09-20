@@ -51,30 +51,30 @@ function Navbar() {
       </div>
       
       
-    <div className="relative ">
+    <div className="">
       
     
       <div className="">
-        <ul className="flex  items-center justify-evenly gap-10 flex-row mr-10">
-            <li className="relative ">
+        <ul className="flex   items-center justify-evenly gap-10 flex-row mr-10">
+            <li className="relative">
               <NavLink className='nav-link' to={'/'}>Home </NavLink> 
             </li>
-            <li className="relative ">
+            <li className="relative">
             <NavLink className='nav-link' to={'/home02'}>Home02 </NavLink> 
             </li>
-            <li className="relative ">
+            <li className="relative">
             <NavLink className='nav-link' to={'/about'}>About </NavLink> 
             </li>
-            <li className="relative ">
+            <li className="relative">
             <NavLink className='nav-link' to={'/services'}>Services</NavLink> 
             </li>
-            <li className="relative ">
+            <li className="relative">
             <NavLink className='nav-link' to={'/projects'}>Projects </NavLink> 
             </li>
-            <li className="relative ">
+            <li className="relative">
             <NavLink className='nav-link' to={'/blog'}>Blog</NavLink> 
             </li>
-            <li className="relative ">
+            <li className="relative">
             <NavLink className='nav-link' to={'/contact'}>Contact</NavLink> 
             </li>
           <li><button className="btn-purple common-btn-purple">Free consultion  <BsArrowUpRight className="ms-2"/> </button></li>
