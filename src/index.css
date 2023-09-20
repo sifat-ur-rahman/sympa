@@ -80,7 +80,7 @@
     background-color: #001130;
 }
 
-/* for button  */
+/* for button 01 */
 
 .btn {
     border-radius: 35px;
@@ -109,7 +109,25 @@
     border-color: #ffffff;
     border: 2px solid #FF7122;
   }
+/* for button 02 */
 
+.btn-white-border {
+    border-radius: 35px;
+    padding: 9px 25px;
+    font-size: 20px;
+    font-weight: 500;
+    border: 2px solid #ffffff ;
+    color: #ffffff;
+    -webkit-transition: 0.5s;
+    -ms-transition: 0.5s;
+    transition: 0.5s;
+  }
+  
+  .btn-white-border:hover {
+    border-color: #ffffff;
+    border: 2px solid #FF7122;
+  }
+/* for button 03 */
   .btn-purple {
     border-radius: 35px;
     padding: 9px 25px;
@@ -137,6 +155,32 @@
     border: 2px solid #6140FF;
     color: #ffffff;
   }
+
+
+/* --------------------
+               for button 04 
+               ----------------------*/
+
+  .btn-purple-white-border {
+    border-radius: 35px;
+    padding: 9px 25px;
+    font-size: 20px;
+    font-weight: 500;
+    border: 2px solid #ffffff;
+    color: #FF7122;
+    background-color: #ffffff;
+    -webkit-transition: 0.5s;
+    -ms-transition: 0.5s;
+    transition: 0.5s;
+  }
+
+
+  .btn-purple-white-border:hover {
+    background-color: #6140FF;
+    border: 2px solid #6140FF;
+    color: #ffffff;
+  }
+
   body {
     font-family: 'Jost', sans-serif;
     overflow-x: hidden;
