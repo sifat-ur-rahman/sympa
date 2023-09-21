@@ -28,19 +28,19 @@ function HomeServices() {
                 <img className="mt-5" src={serviceWebAnalysisImg} alt="" />
                 <h4 className=" text-[32px] font-semibold font-['Jost'] capitalize leading-[41.60px] my-7">Web Analysis</h4>
                 <p className="text-zinc-500 text-base font-normal font-['Rubik'] leading-[30px] mb-10">There are some reason build erit a augue insuned image pellen simply freede in the site lorem ipsum dolor...</p>
-                <button className="flex items-center text-lg capitalize leading-loose mb-10">Read More  <BsArrowUpRight className="ms-2"/> </button>
+                <button className="btn-purple-white-border common-btn-purple mb-10 ">Read More  <BsArrowUpRight className="ms-2 hover:rotate-45"/> </button>
             </div>
             <div data-aos="fade-up" className='shadow shadow-slate-200 hover:border-2 hover:border-b-orange-300 p-10 mr-5 cursor-default bg-white'>
                 <img className="mt-5"  src={serviceBuildImg} alt="" />
                 <h4 className=" text-[32px] font-semibold font-['Jost'] capitalize leading-[41.60px] my-7">Website Build</h4>
                 <p className="text-zinc-500 text-base font-normal font-['Rubik'] leading-[30px] mb-10">There are some reason build erit a augue insuned image pellen simply freede in the site lorem ipsum dolor...</p>
-                <button className="flex items-center capitalize leading-loose mb-10">Read More  <BsArrowUpRight className="ms-2"/> </button>
+                <button className="btn-purple-white-border common-btn-purple mb-10">Read More  <BsArrowUpRight className="ms-2"/> </button>
             </div>
             <div data-aos="fade-left" className='shadow shadow-slate-200 hover:border-2 hover:border-b-orange-300 p-10 mr-5 cursor-default bg-white'>
                 <img className="mt-5"  src={serviceWebImg} alt="" />
                 <h4 className=" text-[32px] font-semibold font-['Jost'] capitalize leading-[41.60px] my-7">Digital Marketing</h4>
                 <p className="text-zinc-500 text-base font-normal font-['Rubik'] leading-[30px] mb-10">There are some reason build erit a augue insuned image pellen simply freede in the site lorem ipsum dolor...</p>
-                <button className="flex items-center capitalize leading-loose mb-10">Read More  <BsArrowUpRight className="ms-2"/> </button>
+                <button className="btn-purple-white-border common-btn-purple mb-10">Read More  <BsArrowUpRight className="ms-2"/> </button>
             </div>
             </section>
     </div>
