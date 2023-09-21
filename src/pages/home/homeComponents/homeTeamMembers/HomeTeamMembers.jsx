@@ -10,16 +10,16 @@ import img04 from '../../../../assets/image/team members/teamMember04.jpg'
 function HomeTeamMembers() {
   return (
     <div data-aos="fade-down mb-3">
-        <section data-aos="fade-down"  className="container mx-auto flex items-center justify-between py-14">
+        <section data-aos="fade-down"  className=" mx-52 flex items-center justify-between py-14">
             <div>
-                <p className='text-base font-normal text-orange-500 flex items-center mb-3'><FaDotCircle className='font-sans mr-1'/> Team Member</p>
-                <h3 className="text-3xl font-semibold">See Our Creative Team <br />Members.</h3>
+                <p className='sectionName text-orange-500 flex items-center mb-3'><FaDotCircle className='font-sans mr-1'/> Team Member</p>
+                <h3 className="sectionTitle">See Our Creative Team <br />Members.</h3>
             </div>
             <div>
-                <p className="text-zinc-500 text-base font-normal">It is a long established fact that a reader will be distract <br /> the  content of a page when looking at its layout <br />Ipsum is simply  text  printing pesetting.</p>
+                <p className="sectionText">It is a long established fact that a reader will be distract <br /> the  content of a page when looking at its layout <br />Ipsum is simply  text  printing pesetting.</p>
             </div>
         </section>
-        <section className="grid grid-cols-4 gap-6  mx-5"  >
+        <section className="grid grid-cols-4 gap-6  mx-20"  >
         <div className="">
             <img src={img01} alt="" />
             <h4 className="text-2xl font-semibold text-center mt-5">Cameron Williamson</h4>
