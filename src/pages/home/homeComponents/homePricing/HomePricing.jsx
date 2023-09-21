@@ -61,7 +61,7 @@ function HomePricing() {
                 <p className=" text-base font-normal font-['Rubik'] leading-loose mb-2 flex items-center "><BsPatchCheck className="text-orange-600 mr-2 "/> Unlimited Updates</p>
                 <p className=" text-zinc-500 text-base font-normal font-['Rubik'] leading-[30px] mb-12 flex items-center line-through"><BsPatchCheck className="text-zinc-500 mr-2"/> Custom Interface</p>
                 </div>
-                <button className="btn common-btn justify-items-center  mb-4">Choose Plan<BsArrowUpRight className="ms-2"/> </button>
+                <button className="btn common-btn justify-items-center ">Choose Plan<BsArrowUpRight className="ms-2"/> </button>
             </div>
             <div data-aos="fade-left" className='shadow shadow-slate-200 hover:border-2 hover:border-orange-300 p-10 mr-5 cursor-default bg-white'>
                 <div className="flex items-center justify-between mb-8 mt-4">
@@ -80,9 +80,9 @@ function HomePricing() {
                 <p className=" text-base font-normal font-['Rubik'] leading-loose mb-2 flex items-center"><BsPatchCheck className="text-orange-600 mr-2"/> Custom permission</p>
                 <p className=" text-base font-normal font-['Rubik'] leading-loose mb-2 flex items-center"><BsPatchCheck className="text-orange-600 mr-2"/> Custom design and features</p>
                 <p className=" text-base font-normal font-['Rubik'] leading-loose mb-2 flex items-center "><BsPatchCheck className="text-orange-600 mr-2 "/> Unlimited Updates</p>
-                <p className="  text-base font-normal font-['Rubik'] leading-loose mb-2 flex items-center "><BsPatchCheck className="text-orange-600 mr-2"/> Custom Interface</p>
+                <p className="  text-base font-normal font-['Rubik'] leading-loose mb-12 flex items-center "><BsPatchCheck className="text-orange-600 mr-2"/> Custom Interface</p>
                 </div>
-                <button className="btn common-btn justify-items-center  mb-4">Choose Plan<BsArrowUpRight className="ms-2"/> </button>
+                <button className="btn common-btn justify-items-center">Choose Plan<BsArrowUpRight className="ms-2"/> </button>
             </div>
             
             </section>
