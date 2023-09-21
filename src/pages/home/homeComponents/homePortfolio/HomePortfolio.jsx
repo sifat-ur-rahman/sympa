@@ -20,11 +20,11 @@ import img02 from '../../../../assets/image/Rectangle.png'
 function HomePortfolio() {
   return (
     <div data-aos="fade-up">
-        <section  className="mt-10 wow bounceInUp">
-            <p className='text-base font-normal text-indigo-600 flex items-center justify-center'><FaDotCircle className='font-sans mr-1'/>LATEST PORTFOLIO</p>
-            <h2 className="text-3xl font-semibold mb-2 text-center">what next? our latest <br /> client stories.</h2>
+        <section  className="mt-28">
+            <p className='sectionName flex items-center justify-center'><FaDotCircle className='font-sans mr-1'/>LATEST PORTFOLIO</p>
+            <h2 className="sectionTitle mb-2 text-center">what next? our latest <br /> client stories.</h2>
         </section>
-        <section className="mb-20 mt-8">
+        <section className="mb-20 mt-12 mx-52">
         <Swiper
         slidesPerView={4}
         spaceBetween={100}
@@ -71,7 +71,7 @@ function HomePortfolio() {
         <SwiperSlide>
         <div className="box">
             <div className="imgBox">
-                <img src="https://image.freepik.com/free-photo/young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait-isolated-long-hair_285396-896.jpg" alt=""/>
+                <img src={img01} alt=""/>
             </div>
             <div className="content">
                 
@@ -88,7 +88,7 @@ function HomePortfolio() {
         <SwiperSlide>
         <div className="box">
             <div className="imgBox">
-                <img src="https://img.freepik.com/free-photo/portrait-handsome-young-man-makes-okay-gesture-demonstrates-agreement-likes-idea-smiles-happily-wears-optical-glasses-yellow-hat-t-shirt-models-indoor-its-fine-thank-you-hand-sign_273609-30676.jpg?size=626&ext=jpg" alt=""/>
+                <img src={img02} alt=""/>
             </div>
             <div className="content">
             <div className="flex items-center ">
@@ -104,7 +104,7 @@ function HomePortfolio() {
         <SwiperSlide>
         <div className="box">
             <div className="imgBox">
-                <img src="https://image.freepik.com/free-photo/young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait-isolated-long-hair_285396-896.jpg" alt=""/>
+                <img src={img01} alt=""/>
             </div>
             <div className="content">
             <div className="flex items-center ">
