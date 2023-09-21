@@ -19,18 +19,20 @@
 
   .bannerTitle{
     font-family: 'Jost', sans-serif;
-    font-size: 60px;
+    color: #FFF;
+    font-size: 80px;
     font-style: normal;
-    font-weight: 500;
-    line-height: 70px;
+    font-weight: 700;
+    line-height: 94px; 
   }
 
   .bannerText{
     font-family: 'Rubik', sans-serif;
-    font-size: 16px;
+    color: #FFF;
+    font-size: 18px;
     font-style: normal;
-    font-weight: 300;
-    line-height: 30px;
+    font-weight: 400;
+    line-height: 36px; 
   }
 
   .normalText{

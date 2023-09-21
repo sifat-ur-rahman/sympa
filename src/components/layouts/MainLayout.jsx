@@ -5,7 +5,7 @@ import Footer from "../shared/footer/Footer"
 
 function MainLayout() {
   return (
-    <div>
+    <div className="max-w-[1921px]">
          <Navbar/>
         <Outlet/>
         <Footer/>

@@ -7,7 +7,8 @@ import logo3 from '../../../../assets/image/home2/offer/logo3.png'
 
 function Home2Offer() {
   return (
-    <div className="bg-slate-50 py-16">
+    <div className="bg-slate-50 py-16 px-9">
+        
         <section className="flex flex-col items-center">
         <div data-aos="zoom-in" className="sectionBg ">
             <p className='sectionName pt-2 px-14  text-indigo-600 '>What we Offer</p>

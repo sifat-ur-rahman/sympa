@@ -9,7 +9,8 @@ import Counter from '../../../../components/counter/Counter'
 
 function HomeAboutUs() {
   return (
-    <div data-aos="fade-up" className="grid grid-cols-2 items-center justify-between my-16">
+    <div data-aos="fade-up" className="grid grid-cols-2 items-center justify-center justify-items-center mx-32 my-16">
+        {/* image */}
         <div data-aos="fade-right" className="w-[643px] h-[570px] relative">
             <div className="w-[467px] h-[490px] left-[151px] top-[18px] absolute opacity-10 bg-indigo-600 rounded-[5px]" />
             <img className=" left-16  top-10 absolute origin-top-left  rounded-[5px]" src={homeAboutUsImg} />
@@ -24,20 +25,22 @@ function HomeAboutUs() {
             </div>
 
         </div>
-        <div data-aos="fade-left" className='pl-14'>
-            <p className='text-base font-normal text-indigo-600 flex items-center'><FaDotCircle className='font-sans mr-1'/> About us</p>
-            <h3 className='text-3xl font-semibold mb-2'>Revolutionary Approaches <br /> For The Digital Era</h3>
-            <p className='text-zinc-500 text-base font-normal mb-7'>It is a long established fact that a reader will be distracted by the  content of a page when looking at its layout. Lorem Ipsum is simply  text of the printing and typesetting industry.</p>
-            <section className='flex items-center '>
-            <div className='shadow shadow-slate-200 hover:border-2 hover:border-s-orange-300 p-4 mr-5 cursor-default'>
+        {/* hading */}
+        <div data-aos="fade-left" className=''>
+            <p className='sectionName text-indigo-600 flex items-center'><FaDotCircle className='font-sans mr-1'/> About us</p>
+            <h3 className='sectionTitle mb-2'>Revolutionary Approaches <br /> For The Digital Era</h3>
+            <p className='sectionText pr-5 mb-7'>It is a long established fact that a reader will be distracted by the  content of a page <br /> when looking at its layout. Lorem Ipsum is simply  text of the printing and <br /> typesetting industry.</p>
+           {/* card */}
+           <section className='flex items-center justify-center '>
+            <div className='shadow shadow-slate-200 hover:border-2 hover:border-s-orange-300 p-10 mr-5 cursor-default'>
                 <img src={homeAboutUsTeamImg} alt="" />
-                <h4 className='text-xl font-semibold'>Dedicated Team</h4>
-                <p className='text-zinc-500 text-base font-normal'>Tpsum is simply  text of the printing and types</p>
+                <h4 className="text-neutral-900 text-2xl font-semibold font-['Jost'] leading-[30px] mb-3 mt-5">Dedicated Team</h4>
+                <p className="text-zinc-500 text-base font-normal font-['Rubik'] leading-[30px]">Tpsum is simply  text of the <br /> printing and types</p>
             </div>
-            <div className='shadow shadow-slate-200 hover:border-2 hover:border-s-orange-300 p-4 mr-5 cursor-default'>
-                <img  src={homeAboutUsMessageImg} alt="" />
-                <h4 className='text-xl font-semibold mt-4'>Dedicated Team</h4>
-                <p className='text-zinc-500 text-base font-normal'>Tpsum is simply  text of the printing and types</p>
+            <div className='shadow shadow-slate-200 hover:border-2 hover:border-s-orange-300 p-10 mr-5 cursor-default'>
+                <img  className='mt-4' src={homeAboutUsMessageImg} alt="" />
+                <h4 className="text-neutral-900 text-2xl font-semibold font-['Jost'] leading-[30px] mb-3 mt-5">Quick Support</h4>
+                <p className="text-zinc-500 text-base font-normal font-['Rubik'] leading-[30px]">Tpsum is simply  text of the <br /> printing and types</p>
             </div>
             </section>
 
